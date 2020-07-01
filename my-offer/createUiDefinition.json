@@ -47,25 +47,6 @@
                     "hideConfirmation": false
                 },
                 "osPlatform": "Linux"
-            },
-            {
-                "name": "vmSize",
-                "type": "Microsoft.Compute.SizeSelector",
-                "label": "Virtual machine size",
-                "toolTip": "The size of virtual machine to provision.",
-                "recommendedSizes": [
-                    "Standard_DS2_v2",
-                    "Standard_DS3_v2",
-                    "Standard_DS4_v2",
-                    "Standard_E2S_v3",
-                    "Standard_E4S_v3",
-                    "Standard_E8S_v3",
-                    "Standard_F2S_v2",
-                    "Standard_F4S_v2",
-                    "Standard_F8S_v2"
-                ],
-                "osPlatform": "Linux",
-                "count": "1"
             }
         ],
         "steps": [
@@ -78,6 +59,25 @@
                 },
                 "bladeTitle": "Virtual Machine Settings",
                 "elements": [
+                    {
+                        "name": "vmSize",
+                        "type": "Microsoft.Compute.SizeSelector",
+                        "label": "Virtual machine size",
+                        "toolTip": "The size of virtual machine to provision",
+                        "recommendedSizes": [
+                            "Standard_DS2_v2",
+                            "Standard_DS3_v2",
+                            "Standard_DS4_v2",
+                            "Standard_E2S_v3",
+                            "Standard_E4S_v3",
+                            "Standard_E8S_v3",
+                            "Standard_F2S_v2",
+                            "Standard_F4S_v2",
+                            "Standard_F8S_v2"
+                        ],
+                        "osPlatform": "Linux",
+                        "count": "1"
+                    },
                     {
                         "name": "bootDiagnostics",
                         "type": "Microsoft.Common.OptionsGroup",
@@ -222,8 +222,8 @@
             "adminUsername": "[basics('adminUsername')]",
             "authenticationType": "[basics('authenticationType').authenticationType]",
             "adminPasswordOrKey": "[coalesce(basics('authenticationType').password, basics('authenticationType').sshPublicKey)]",
-            "vmSize": "[basics('vmSize')]",
 
+            "vmSize": "[steps('VirtualMachineConfig').vmSize]",
             "bootDiagnostics": "[steps('VirtualMachineConfig').bootDiagnostics]",
             "storageNewOrExisting": "[steps('VirtualMachineConfig').storageAccountType.newOrExisting]",
             "storageAccountName": "[steps('VirtualMachineConfig').storageAccountType.name]",
