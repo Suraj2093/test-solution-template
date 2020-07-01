@@ -110,6 +110,7 @@
                             "name": "[concat(replace(basics('vmName'), '-', ''), take(replace(guid(), '-', ''), 10))]"
                         },
                         "constraints": {
+                            "regex": "[concat('^jdbc:', coalesce(steps('VirtualMachineConfig').storageAccountType, ''), '.*$')]",
                             "allowedTypes": [
                                 "Standard_LRS",
                                 "Standard_GRS"
