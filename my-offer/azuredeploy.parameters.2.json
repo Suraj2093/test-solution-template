@@ -28,17 +28,17 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.3.0.0/16"
+      "10.4.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.3.0.0/24"
+    "value": "10.4.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG3"
+    "value": "Test-Solntemp-UIchange-Rg1"
   },
   "publicIpNewOrExisting": {
     "value": "new"
@@ -47,10 +47,10 @@
     "value": "jbosseap-server-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-server-92d4b3b9bc"
+    "value": "jbosseap-server-71f0690e4c"
   },
   "publicIpResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG3"
+    "value": "Test-Solntemp-UIchange-Rg1"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
