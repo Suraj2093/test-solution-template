@@ -24,13 +24,13 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "jbosseapserver787f0e68bb"
+    "value": "jbosseapservere23aac9f22"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
   },
   "storageAccountResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG2"
+    "value": "Test-SolnTemp-UI-RG4"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
@@ -50,7 +50,7 @@
     "value": "10.3.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG2"
+    "value": "Test-SolnTemp-UI-RG4"
   },
   "publicIpNewOrExisting": {
     "value": "new"
@@ -59,10 +59,10 @@
     "value": "jbosseap-server-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-server-6d3c339c6b"
+    "value": "jbosseap-server-45cfb1f6bd"
   },
   "publicIpResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG2"
+    "value": "Test-SolnTemp-UI-RG4"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
