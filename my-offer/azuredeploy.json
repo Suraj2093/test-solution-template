@@ -59,7 +59,7 @@
     },
     "bootDiagnostics": {	
       "type": "string",	
-      "defaultValue": "Off",	
+      "defaultValue": "On",
       "allowedValues": [	
         "Off",		
         "On"
