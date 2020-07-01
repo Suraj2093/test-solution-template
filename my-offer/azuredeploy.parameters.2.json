@@ -1,0 +1,64 @@
+{
+  "location": {
+    "value": "eastus"
+  },
+  "vmName": {
+    "value": "jbosseap-server"
+  },
+  "adminUsername": {
+    "value": "demouser"
+  },
+  "authenticationType": {
+    "value": "password"
+  },
+  "adminPasswordOrSSHKey": {
+    "value": "demoPassword1!"
+  },
+  "vmSize": {
+    "value": "Standard_DS2_v2"
+  },
+  "bootDiagnostics": {
+    "value": "Off"
+  },
+  "virtualNetworkNewOrExisting": {
+    "value": "new"
+  },
+  "virtualNetworkName": {
+    "value": "VirtualNetwork"
+  },
+  "addressPrefixes": {
+    "value": [
+      "10.3.0.0/16"
+    ]
+  },
+  "subnetName": {
+    "value": "Subnet-1"
+  },
+  "subnetPrefix": {
+    "value": "10.3.0.0/24"
+  },
+  "virtualNetworkResourceGroupName": {
+    "value": "Test-SolnTemp-UI-RG3"
+  },
+  "publicIpNewOrExisting": {
+    "value": "new"
+  },
+  "publicIpName": {
+    "value": "jbosseap-server-ip"
+  },
+  "publicIpDns": {
+    "value": "jbosseap-server-92d4b3b9bc"
+  },
+  "publicIpResourceGroupName": {
+    "value": "Test-SolnTemp-UI-RG3"
+  },
+  "publicIPAllocationMethod": {
+    "value": "Dynamic"
+  },
+  "jbossEAPUserName": {
+    "value": "demouser1"
+  },
+  "jbossEAPPassword": {
+    "value": "demoPassword1!"
+  }
+}
