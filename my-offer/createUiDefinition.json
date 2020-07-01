@@ -221,7 +221,7 @@
             "vmName": "[basics('vmName')]",
             "adminUsername": "[basics('adminUsername')]",
             "authenticationType": "[basics('authenticationType').authenticationType]",
-            "adminPasswordOrKey": "[coalesce(basics('authenticationType').password, basics('authenticationType').sshPublicKey)]",
+            "adminPasswordOrSSHKey": "[coalesce(basics('authenticationType').password, basics('authenticationType').sshPublicKey)]",
 
             "vmSize": "[steps('VirtualMachineConfig').vmSize]",
             "bootDiagnostics": "[steps('VirtualMachineConfig').bootDiagnostics]",
