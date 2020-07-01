@@ -3,7 +3,7 @@
     "value": "eastus"
   },
   "vmName": {
-    "value": "jbosseap-server1"
+    "value": "jbosseap-server"
   },
   "adminUsername": {
     "value": "demouser"
@@ -11,7 +11,7 @@
   "authenticationType": {
     "value": "password"
   },
-  "adminPasswordOrKey": {
+  "adminPasswordOrSSHKey": {
     "value": "demoPassword1!"
   },
   "vmSize": {
@@ -24,19 +24,19 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "jbosseapserver18ab2608"
+    "value": "jbosseapserver787f0e68bb"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
   },
   "storageAccountResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG1"
+    "value": "Test-SolnTemp-UI-RG2"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
   },
   "virtualNetworkName": {
-    "value": "Test-VNET1"
+    "value": "VirtualNetwork"
   },
   "addressPrefixes": {
     "value": [
@@ -50,19 +50,19 @@
     "value": "10.3.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG1"
+    "value": "Test-SolnTemp-UI-RG2"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "jbosseap-server1-ip"
+    "value": "jbosseap-server-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-server1-ab3fa19d33"
+    "value": "jbosseap-server-6d3c339c6b"
   },
   "publicIpResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG1"
+    "value": "Test-SolnTemp-UI-RG2"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
