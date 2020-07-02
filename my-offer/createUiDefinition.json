@@ -107,7 +107,7 @@
                         "visible": "[equals(steps('VirtualMachineConfig').bootDiagnostics, 'On')]",
                         "defaultValue": {
                             "type": "Standard_LRS",
-                            "name": "[concat(replace(basics('vmName'), '-', ''), take(replace(guid(), '-', ''), 10))]"
+                            "name": "[concat(replace(take(basics('vmName'), '-', ''), 10), take(replace(guid(), '-', ''), 10))]"
                         },
                         "constraints": {
                             "regex": "[concat('^jdbc:', coalesce(steps('VirtualMachineConfig').storageAccountType, ''), '.*$')]",
