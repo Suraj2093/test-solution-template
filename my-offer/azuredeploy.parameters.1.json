@@ -3,7 +3,7 @@
     "value": "eastus"
   },
   "vmName": {
-    "value": "jbosseap-server"
+    "value": "jbosseap-vm1"
   },
   "adminUsername": {
     "value": "demouser"
@@ -21,16 +21,16 @@
     "value": "On"
   },
   "storageNewOrExisting": {
-    "value": "new"
+    "value": "existing"
   },
   "storageAccountName": {
-    "value": "jbosseapservere23aac9f22"
+    "value": "demostrgsrp"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
   },
   "storageAccountResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG4"
+    "value": "Test-Storage-for-managedApps"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
@@ -40,35 +40,35 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.3.0.0/16"
+      "10.5.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.3.0.0/24"
+    "value": "10.5.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG4"
+    "value": "Test-ManagedApps-Rg4"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "jbosseap-server-ip"
+    "value": "jbosseap-vm1-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-server-45cfb1f6bd"
+    "value": "jbosseap-vm1-8ac8e94c3d"
   },
   "publicIpResourceGroupName": {
-    "value": "Test-SolnTemp-UI-RG4"
+    "value": "Test-ManagedApps-Rg4"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
   },
   "jbossEAPUserName": {
-    "value": "demouser1"
+    "value": "demouser"
   },
   "jbossEAPPassword": {
     "value": "demoPassword1!"
