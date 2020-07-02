@@ -3,7 +3,7 @@
     "value": "eastus"
   },
   "vmName": {
-    "value": "jbosseap-server"
+    "value": "jbosseap-vm2"
   },
   "adminUsername": {
     "value": "demouser"
@@ -28,29 +28,29 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.4.0.0/16"
+      "10.6.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.4.0.0/24"
+    "value": "10.6.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Test-Solntemp-UIchange-Rg1"
+    "value": "Test-ManagedApps-Rg5"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "jbosseap-server-ip"
+    "value": "jbosseap-vm2-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-server-71f0690e4c"
+    "value": "jbosseap-vm2-cd22fdbff0"
   },
   "publicIpResourceGroupName": {
-    "value": "Test-Solntemp-UIchange-Rg1"
+    "value": "Test-ManagedApps-Rg5"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
